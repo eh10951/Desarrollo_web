@@ -1,0 +1,38 @@
+body {
+     background-color:#97D1BF;
+     background-size: 90%;
+
+     text-align: center;
+}
+
+header{
+    background-color: black;
+    color: #BCD8CC;
+    
+}
+
+
+a{
+    color: aliceblue;
+}
+nav a{
+    color: white
+    text-decoration: none;
+}
+
+main{
+    background-color: #C7DDCC;
+}
+
+section{
+    background-color: blue;
+    color: blanchedalmond;
+}
+article{
+    background-color:#D91494;
+    color: aliceblue;
+}
+
+footer{
+    background-color:yellow ;
+}
