@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wallpaper.mob.org%2Fgallery%2Ftag%3Dgit%2F&psig=AOvVaw08eSPGetmS3EK4_MMhi0Gd&ust=1702050639484000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDixO_W_YIDFQAAAAAdAAAAABAE");
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.github-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 600px;
+    background: #f1f8ff; /* Fondo GitHub */
+}
+
+h1 {
+    color: #0366d6; /* Azul GitHub */
+}
+
+pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+code {
+    color: #333333;
+}
