@@ -1,18 +1,21 @@
 body{
     background-color:black;
-    
-    margin: 7%;
-    margin-top: 0%;
+   
+    margin: 9%;
+    margin-top: 4%;
     padding: 0%;
     text-align: center;
-    
-    
- 
 
+    
+
+    
 }
+
+
 
 h2,h3,p{
     color: white;
+
 
 }
 
@@ -34,7 +37,7 @@ a{
 .tabla{
  color: aliceblue;
  position: relative;
- left: 600px;
+ left: 570px;
  border-collapse: collapse;
 
  
@@ -73,16 +76,19 @@ a:hover{
     color:blue ;
 }
 
+
+
 img{
-    border-radius: 20px;
-}
-
-
-.titulo{
-
-    font-size: 60px;
+    border-radius: 30px;
+    margin: 10px;
     
 }
+
+
+
+
+
+
 
 .contraseña
 
@@ -96,20 +102,14 @@ img{
 }
 
 .ingeneral{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
 }
 
 
 
 
-form{
-    
-    
-    position: relative;
 
-    
-}
 
 
 .welcome{
@@ -139,5 +139,132 @@ ul{
     margin: 0%;
     position: relative;
     left: 10px;
+
+
    
 }
+
+
+.titulo{
+
+    font-size: 60px;
+    
+}
+
+.titulo{
+    box-shadow: 0 3rem 14rem #cc540e;
+}
+
+form{
+    
+    
+    position: relative;
+
+    
+}
+
+
+
+.bo:hover{
+
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+    
+}
+
+.bo{
+    background-color: peru;
+    color:springgreen;
+}
+
+
+.piano{
+    background-color: orange;
+    margin: 20px;
+    
+}
+
+
+
+div,.guitarra ,.piano,.flauta{
+    
+    transition: box-shadow 0.3s ease;
+    border-radius: 20px;
+    padding: 2px 0px;
+    cursor: pointer;
+    margin: 20px;    
+    
+   
+    
+}
+
+div{
+    box-shadow: 0 4rem 10rem #c5b30edc;
+
+}
+
+
+img:hover,.piano:hover,.guitarra:hover,.flauta:hover{
+    box-shadow: 0 3rem 14rem #cc540e ;
+    
+    
+}
+
+
+.one{
+    background-color: hsl(17, 10%, 5%);
+}
+
+
+
+footer p{
+    padding: 20px;
+    color: rgb(220, 20, 20);
+    margin-top: 100px;
+    position: relative;
+    font-size: 30px;
+}
+
+
+hr{
+    width: 20rem;
+}
+
+
+.general{
+    color: brown;
+    background-color:black;
+    overflow: scroll top;
+}
+
+
+.willys{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+
+.como{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+.just{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

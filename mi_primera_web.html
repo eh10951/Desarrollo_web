@@ -1,18 +1,115 @@
-<! DOCTYPE html >
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title> Mi primera pagina web </title>
+    
+    <title>LOGIN</title>
+
+    <style>
+
+        body{
+            margin: 0%;
+        }
+
+        .fondo{
+            background-color: blanchedalmond;
+            border-radius: 2px;
+            width: max-content;
+            height: 200px;
+
+        }
+
+        form{
+
+            display:block;
+            width: 200px;
+            margin: 30px ;
+            margin-top: 20px;
+            padding-top: 30px;
+        } 
+
+        section{
+            position: relative;
+            left: 40%;
+        }
+
+        h1{
+            text-align: center;
+            position: relative;
+            right: 5rem;
+        }
+
+
+        div{
+            background-color: brown;
+            width: max-content;
+            padding: 1px;
+        }
+
+        .fondos{
+
+            position: relative;
+            left: 40%;
+            margin-top: 20px;
+        }
+
+
+
+    </style>
+
 </head>
-
 <body>
-<h1>¡Hola mundo!</h1>
 
-<h3> El comienzo de un nuevo proyecto</h3>
-<p> Estas visualizando el contenido de <strong> mi primer pagina web </strong></p>
-<p>Nota que en la pestaña del navegador se encuentra el "titulo de mi pagina web llamada:
-"Mi primera pagina web"</p>
-<p>una <¡>pagina web </¡>es otro medio mas para poder difundir contenido por internet a todo el mundo</p>
+    <h1>iniciar sesion</h1>
 
+<section class="fondo">
+    
+
+      
+       <form action="login">
+
+        <label for="usuario" >Usuario</label>
+        <input type="datetime" id="usuario" placeholder="usuario"> <br><br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" placeholder="contraseña"> 
+
+        <br><br>
+
+        <label for="Enviar">Enviar</label>
+        <input type="submit" id="Enviar" >
+
+       </form> 
+
+
+</section>
+
+
+<div class="fondos">
+    <form action="buscar">
+    
+    <label for="buscar">Buscar</label>  
+    <input type="search" id="buscar" placeholder="buscar">
+
+
+    <p>Forma de entrega</p>
+
+
+    <label for="domicilio">Envio a domicilio</label>
+    <input type="radio" id="domicilio" name="entrega" value="tienda" required> <br>
+
+    <label for="tienda">Recoger en tienda</label>
+    <input type="radio" id="tienda" name="entrega" value="tienda" required> <br><br>
+
+    <button type="submit">Enviar</button>
+
+
+
+
+    </form>
+
+
+</div>
+
+    
+    
 </body>
 </html>
